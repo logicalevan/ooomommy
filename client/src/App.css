@@ -1,0 +1,78 @@
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#big-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header {
+  width: 100%;
+}
+
+section {
+  width: 95%;
+  margin: 2em auto 0 auto;
+} 
+
+ul {
+  list-style: none;
+  text-align-last: center;
+
+}
+
+.btn-see-project {
+  text-align-last: center;
+  font-size: 25px;
+  margin-left: 6.5%;
+  border-bottom: 10px;
+}
+
+li {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+h3 {
+  text-align-last: center;
+  margin-top: 30px;
+  margin-left: 6%;
+  font-size: 18px;
+}
+
+.btn {
+  margin-left: 50%;
+}
+
+.form-group {
+  font-size: 135%;
+  margin-top: 15px;
+  margin-left: 42%;
+}
+#article-options:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  header {
+      padding-top: 3em;
+      width: 300px;
+      min-height: 100vh;
+  }
+
+  section {
+      width: 450px;
+      margin: 2em auto;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+      width: 400px;
+  }
+
+  section{
+      width: 600px;
+  }
+}
